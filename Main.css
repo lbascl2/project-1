@@ -1,0 +1,40 @@
+.hero_image {
+    background-image: url(./img/feast_hero_image.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+}
+
+
+.luckiest-guy-regular {
+    font-family: "Luckiest Guy", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(126, 21, 74);
+  }
+
+
+  h1 {
+    margin: 25px;
+  }
+
+  h2{
+    margin: 50px;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(126, 21, 74);
+
+  }
+
+  p{
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center; 
+  }
+
+
+  .about_us_border {
+    border: 10px solid rgb(83, 252, 212);
+  }
