@@ -21,7 +21,7 @@
 /* TEXT MODIFIERS */
 body {
   background-color: rgb(241, 241, 220);
-  font-family: "Hepta Slab", serif;
+  font-family: "Playfair Display", "Garamond", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -31,29 +31,32 @@ body {
     margin: 25px;
     font-size: 40px;
     color: rgb(126, 21, 74);
-    font-family: "Luckiest Guy", serif;
+    font-family: "Luckiest Guy", Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-style: normal;
   }
 
   h2{
     margin: 50px;
+    padding-top: 30px;
     text-align: center;
     font-size: 40px;
     color: rgb(255, 255, 255);
-    font-family: "Luckiest Guy", serif;
+    font-family: "Luckiest Guy", Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-style: normal;
   }
 
-
-
-  .headings_light {
-    color: rgb(240, 247, 252);
+  h3 {
+    text-align:center;
+    color:rgb(255, 255, 255);
+    font-size: 27px;
   }
+
 
   p{
     color:rgb(255, 255, 255);
+    padding-bottom: 75px;
     max-width: 800px;
     margin: 0 auto;
     font-size: 20px;
@@ -63,6 +66,23 @@ body {
 
   .background_reviews p { 
     color: rgb(0, 0, 0);
+  }
+
+  .background_reviews h3 {
+    color: rgb(126, 21, 74);
+    font-family: "Luckiest Guy", Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    padding-top: 30px;
+  }
+
+  ul {
+    text-align: center;
+    list-style: none;
+    color: rgb(255, 255, 255)
+  }
+
+  footer p {
+    color: rgb(0, 0, 0)
   }
 
 
@@ -87,22 +107,44 @@ body {
     justify-content: space-between
   }
 
+  .page_2 {
+    color: rgb(126, 21, 74);
+    padding-bottom: 400px;
+  }
+
 /* LINK MODIFIERS */
 
   .header_links {
     text-align: right;
     font-size: 24px;
+    padding-right: 30px;
   }
 
   .menu_link {
     text-align: center;
     font-size: 48px;
+    padding-top:50px;
+    padding-bottom: 75px;
   }
 
   a:hover {
-    color:rgb(89, 224, 89)
+    color:rgb(51, 139, 51)
   }
 
+  .skip {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    z-index: 100;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .skip:focus {
+    opacity: 1;
+  }
 
   /* BACKGROUND COLORS */
 
@@ -115,10 +157,19 @@ body {
   }
 
   .background_green {
-    background-color: rgb(0, 171, 0)
+    background-color: rgb(24, 146, 24);
+    padding-bottom: 75px;
   }
 
   .background_reviews { 
     background-color: rgb(255, 255, 255);
+    border-radius: 25px;
     width: 900px;
+  }
+
+
+  /* SECTION MODIFIERS */
+
+  footer {
+    padding-top: 75px;
   }
