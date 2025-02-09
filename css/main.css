@@ -75,6 +75,10 @@ body {
     padding-top: 30px;
   }
 
+  a {
+    color: rgb(96, 21, 126)
+  }
+
   ul {
     text-align: center;
     list-style: none;
